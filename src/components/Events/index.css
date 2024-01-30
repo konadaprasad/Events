@@ -1,0 +1,105 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: row;
+  font-family: 'roboto';
+}
+.first-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #3a4b63;
+  background-size: cover;
+  width: 55%;
+}
+.second-container {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.heading {
+  font-size: 35px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+.un-order {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.list-cont {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.event-img {
+  height: 200px;
+  width: 290px;
+}
+.head {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.para {
+  margin-top: 0px;
+  font-size: 16px;
+  color: #ffffff;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 50px;
+  text-align: center;
+}
+.para1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #64748b;
+}
+.success {
+  height: 100px;
+  width: 100px;
+}
+.cont1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  padding: 30px;
+  text-align: center;
+}
+.yet-to-register {
+  height: 500px;
+  width: 350px;
+}
+.para2 {
+  color: #64748b;
+  font-size: 25px;
+  font-weight: 500;
+}
+.btn1 {
+  height: 40px;
+  width: 120px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0967d2;
+  color: #ffffff;
+}
+.registration-closed {
+  height: 300px;
+  width: 300px;
+}
